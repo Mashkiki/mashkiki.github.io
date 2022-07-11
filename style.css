@@ -1,0 +1,52 @@
+@font-face {
+    font-family: fredoka;
+    src: url(fonts/fredoka.ttf);
+}
+
+body {
+    background-color: #181818;
+    color: white;
+    font-family: fredoka;
+}
+
+.g {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -151.5px 0 0 -691.25px;
+    animation: colorRotate 12s linear 0s infinite;
+    font-size: 250px;
+}
+
+.h {
+    position: absolute;
+    text-align: center;
+    top: 98%;
+    left: 50%;
+    margin: 0 0 0 -156.97px;
+    font-size: 14px;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #2626ff;
+        text-shadow: 0px 0px 12px #2626ff;
+    }
+    10% {
+        color: #00c3ff;
+        text-shadow: 0px 0px 12px #00c3ff;
+    }
+    50% {
+        color: #00ff00;
+        text-shadow: 0px 0px 12px #00ff00;
+    }
+    75% {
+        color: #ff008c;
+        text-shadow: 0px 0px 12px #ff008c;
+    }
+    100% {
+        color: #2626ff;
+        text-shadow: 0px 0px 12px #2626ff;
+    }
+}
