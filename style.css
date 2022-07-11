@@ -28,6 +28,18 @@ body {
     font-size: 14px;
 }
 
+.j {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -182.25px;
+    font-size: 36px;
+    color: #ff3333;
+    text-shadow: 0px 0px 8px #ff2222;
+    opacity: 20%;
+}
+
 @keyframes colorRotate {
     from {
         color: #2626ff;
