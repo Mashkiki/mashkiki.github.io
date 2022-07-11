@@ -17,6 +17,7 @@ body {
     margin: -151.5px 0 0 -691.25px;
     animation: colorRotate 12s linear 0s infinite;
     font-size: 250px;
+    user-select: none;
 }
 
 .h {
@@ -26,6 +27,7 @@ body {
     left: 50%;
     margin: 0 0 0 -156.97px;
     font-size: 14px;
+    user-select: none;
 }
 
 .j {
@@ -38,6 +40,7 @@ body {
     color: #ff3333;
     text-shadow: 0px 0px 8px #ff2222;
     opacity: 20%;
+    user-select: none;
 }
 
 @keyframes colorRotate {
