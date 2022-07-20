@@ -74,3 +74,30 @@ body {
     left: 10px;
     bottom: 10px;
 }
+
+.no {
+    position: absolute;
+    width: 249px;
+    height: 249px;
+    opacity: 33%;
+    right: 10px;
+    bottom: 10px;
+}
+
+.fiji {
+    position: absolute;
+    width: 134px;
+    height: 190px;
+    opacity: 33%;
+    right: 10px;
+    top: 10px;
+}
+
+.grzyb {
+    position: absolute;
+    width: 249px;
+    height: 226px;
+    opacity: 33%;
+    left: 10px;
+    top: 10px;
+}
