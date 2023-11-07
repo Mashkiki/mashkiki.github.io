@@ -45,7 +45,7 @@ body {
     display: flex; flex-direction: row; gap: 24px;
     width: 100%;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 125px;
 }
 
 .card {
