@@ -1,0 +1,118 @@
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+    font-family: Greycliff;
+    cursor: default;
+}
+
+#topbar {
+    display: flex; align-items: center;
+    position: fixed; top: 0;
+    height: 28px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+}
+
+#clock {
+    color: rgb(220, 220, 220);
+    font-weight: bold; font-size: 20px; font-style: normal;
+    margin-left: 8px;
+}
+
+#wifiLogo {
+    filter: brightness(100%);
+    margin-right: 4px; margin-left: auto;
+}
+
+#battery {
+    color: white;
+    margin-right: 12px;
+}
+
+#hello {
+    position: relative; transition: 1.5s; margin-top: 39px;
+    font-weight: bold; font-size: 48px; font-style: italic;
+    width: 100%; opacity: 0;
+
+    color: rgb(220, 220, 220);
+    filter: drop-shadow(0 0 10px rgb(220, 220, 220));
+    text-align: center;
+}
+
+#cards {
+    display: flex; flex-direction: row; gap: 24px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.card {
+    transition: transform 0.4s;
+    display: flex;
+    flex-direction: column;
+    color: rgb(220, 220, 220);
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    aspect-ratio: 3/4;
+    width: 300px;
+}
+.card:hover {
+    transform: translateY(-30px) scale(1.1);
+}
+
+.cardHead {
+    width: 100%; transition: 0.4s;
+    font-size: 32px;
+    height: 40px; padding: 5px;
+    filter: drop-shadow(0 0 6px rgb(220, 220, 220));
+    text-align: center;
+}
+#html:hover > .cardHead {
+    transition: 0.4s;
+    color: rgb(227, 76, 38);
+    filter: drop-shadow(0 0 6px rgb(227, 76, 38));
+}
+#js:hover > .cardHead {
+    transition: 0.4s;
+    color: rgb(240, 219, 79);
+    filter: drop-shadow(0 0 6px rgb(240, 219, 79));
+}
+#css:hover > .cardHead {
+    transition: 0.4s;
+    color: rgb(38, 77, 228);
+    filter: drop-shadow(0 0 6px rgb(38, 77, 228));
+}
+#html:hover > .cardText {
+    transition: 0.4s;
+    color: rgb(227, 126, 88);
+}
+#js:hover > .cardText {
+    transition: 0.4s;
+    color: rgb(240, 219, 129);
+}
+#css:hover > .cardText {
+    transition: 0.4s;
+    color: rgb(88, 127, 228);
+}
+#html:hover {
+    background-color: rgba(227, 76, 38, 0.06);
+    border: 1px solid rgba(227, 76, 38, 0.12);
+}
+#js:hover {
+    background-color: rgba(240, 219, 79, 0.06);
+    border: 1px solid rgba(240, 219, 79, 0.12);
+}
+#css:hover {
+    background-color: rgba(38, 77, 228, 0.06);
+    border: 1px solid rgba(38, 77, 228, 0.12);
+}
+
+.cardText {
+    transition: 0.4s;
+    font-weight: normal;
+    font-size: 16px;
+    margin-inline: 30px;
+}
